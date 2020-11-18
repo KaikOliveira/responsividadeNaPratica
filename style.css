@@ -94,7 +94,6 @@ h3 {
   opacity: 0.9;
 }
 
-
 /*=============== 
 HERO
 ==================*/
@@ -117,14 +116,13 @@ section.hero p {
   margin: 10px 0px 0px;
 }
 
-
-
 /*=============== 
 MAIN
 ==================*/
 main {
   margin-bottom: 80px;
 }
+
 /*=============== 
 CARDS
 ==================*/
@@ -248,8 +246,7 @@ MODAL
   top: 5px;
   right: 15px;
   
-  opacity: 0;
-  
+  opacity: 0;  
   transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
   transition-delay: 0.3s;
 }
@@ -293,8 +290,6 @@ MODAL
   height: 90%;
   transform: translate(-50%, -50%);
 }
-
-
 
 /*=============== 
 FORM
@@ -348,6 +343,7 @@ FORM
   margin: -4px 8px 10px;
   padding: 12px;
   font-size: 1.6rem;
+  width: 100%;
 }
 
 #form .button {
